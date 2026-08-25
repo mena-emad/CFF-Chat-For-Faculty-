@@ -1,0 +1,71 @@
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Build
+dist/
+build/
+
+# Cache
+.cache/
+.parcel-cache/
+.vite/
+
+# Temporary files
+tmp/
+temp/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# OS metadata
+*.swp
+*.swo
+
+# Debug files
+.npm
+.eslintcache
+
+# Local databases / data
+*.sqlite
+*.sqlite3
+
+# Uploads / user-generated files
+uploads/
+storage/
+
+# Private keys / certificates
+*.pem
+*.key
+*.crt
+
+# Docker
+docker-compose.override.yml
